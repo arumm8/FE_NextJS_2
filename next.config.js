@@ -4,3 +4,16 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+module.exports = {
+  head: {
+    link: [
+      {
+        rel: 'stylesheet',
+        href: `https://cdn.tailwindcss.com/<version>/tailwind.min.css`,
+      },
+    ],
+  },
+};
+
+
